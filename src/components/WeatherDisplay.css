@@ -1,0 +1,38 @@
+.weather-display {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 20px;
+    margin-top: 20px;
+    width: 300px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    background-color: #f9f9f9;
+}
+
+.weather-details {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.weather-icon {
+    width: 100px;
+    height: 100px;
+}
+
+.temperature {
+    font-size: 3em;
+    font-weight: bold;
+    margin: 10px 0;
+}
+
+.description {
+    text-transform: capitalize;
+    font-size: 1.2em;
+    margin-bottom: 10px;
+}
+
+.humidity {
+    font-size: 1em;
+    color: #555;
+}
