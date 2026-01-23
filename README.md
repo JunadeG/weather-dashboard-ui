@@ -15,7 +15,7 @@ This is the frontend for the Full-Stack Weather Dashboard application, built wit
 This frontend requires its companion Spring Boot backend to be running. The backend is responsible for securely handling the external API key and proxying requests to the OpenWeatherMap service.
 
 **You can find the backend project and its setup instructions here:**
-### [https://github.com/your-github-username/weather-dashboard-api](https://github.com/your-github-username/weather-dashboard-api)
+### [https://github.com/JunadeG/weather-dashboard-api](https://github.com/JunadeG/weather-dashboard-api)
 
 ## Getting Started
 
@@ -23,7 +23,7 @@ To run this frontend application locally:
 
 1.  **Clone the repository:**
     ```bash
-    git clone https://github.com/your-github-username/weather-dashboard-ui.git
+    git clone https://github.com/JunadeG/weather-dashboard-ui.git
     ```
 2.  **Navigate to the project directory:**
     ```bash
