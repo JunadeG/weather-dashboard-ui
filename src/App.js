@@ -15,7 +15,7 @@ function App() {
     setWeatherData(null); // Clear old data
     setError(null);       // Clear old errors
 
-    const apiUrl = `http://localhost:8093/api/weather`;
+    const apiUrl = `https://junade-weather-api.onrender.com/api/weather`;
     
     axios.get(apiUrl, { params: { city } })
       .then(response => {
